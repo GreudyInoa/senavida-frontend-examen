@@ -31,7 +31,7 @@
 
 // La URL del backend viene de la variable de entorno VITE_API_URL (definida
 // en el archivo .env). Nunca hardcodeamos la URL acá directamente.
-const API_BASE_URL = import.meta.env.VITE_API_URL as string;
+const API_BASE_URL = 'https://senavida-backend-examen-production.up.railway.app';
 
 if (!API_BASE_URL) {
   // Si esto aparece en la consola, significa que falta el archivo .env
